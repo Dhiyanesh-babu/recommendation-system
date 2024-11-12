@@ -7,7 +7,7 @@ This project implements a simple movie recommender system using matrix factoriza
 - `data_loader.py`: Contains the `RatingsDataset` class which loads and prepares the dataset for training, mapping user and movie IDs to indices.
 - `matrix_factorization.py`: Contains the `MatrixFactorization` model 
 - `main.py`: The entry point of the program that initializes the recommender system, trains it, and outputs the final recommendation matrix.
-- - `predictor.py`: We can use the trained weights/model to get top n movies for any user
+- `predictor.py`: We can use the trained weights/model to get top n movies for any user
 - `requirements.txt`: Contains the dependencies required to run the project.
 
 ## How the Model Works
